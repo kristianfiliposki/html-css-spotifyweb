@@ -1,3 +1,11 @@
 nav li{list-style: none;}
 
 .main-content{overflow-y: auto;}
+.option-nav:hover{border-left: 3.5px solid green;}
+.option-bar:hover{border-bottom: 3.5px solid green;}
+.plus-nav{font-weight: 900;}
+.cd{width: calc(100% / 6);}
+.plus-nav:hover{
+    transition: padding 0.2s;
+    padding: 8px;
+}
