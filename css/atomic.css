@@ -1,4 +1,8 @@
-nav li{list-style: none;}
+:root{
+    --primary-color:#2e3638;
+}
+
+li{list-style: none;}
 
 .main-content{overflow-y: auto;}
 .option-nav:hover{border-left: 3.5px solid green;}
@@ -8,4 +12,13 @@ nav li{list-style: none;}
 .plus-nav:hover{
     transition: padding 0.2s;
     padding: 8px;
+}
+.track-audio{
+    height: 5px;
+    width:70%;
+    border-radius: 25px;
+}
+
+footer{
+    background-color: var(--primary-color);
 }

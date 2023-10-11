@@ -19,9 +19,9 @@
                     
                     <div class="nav-main">
                         <!-- logo -->
-                        <div class="h-10 d-flex flex-align-center flex-justify-start">
+                        <div class="h-10 d-flex flex-align-center flex-justify-start m-8">
                             <div class="w-20 h-60 mr-8"><img src="./img/logo-small.svg" alt="logo" class="h-100 w-100"></div>
-                            <div class="c-white fe-2-5">Spotify</div>
+                            <h1 class="c-white fe-2-5">Spotify</h1>
                         </div>
                     
                         <!-- option nav -->
@@ -209,16 +209,61 @@
             </section>    
     
     
+        <!-- barra sottostante -->
+        <footer class=" vh-10 w-100 d-flex flex-align-center flex-justify-between">
+           <!-- canzone in riproduzione -->
+            <div class="w-20 h-100 d-flex flex-justify-between flex-align-center">
+                <div class="h-70 d-flex flex-align-center">
+                    <div class="h-100 mr-8">
+                        <img src="./img/sinister.jpeg" alt="foto" class="w-100 h-100">    
+                    </div>
 
-        <footer class="bg-violet vh-10 w-100 d-flex flex-align-center flex-justify-between">
-            <div class="w-20 h-100 bg-lilla">
+                    <div>
+                        <h3>Sinister</h3> 
+                        <div class="fe-0-7 c-grey">Brano nome</div>   
+                    </div>
+                    
+                </div>
+
+                <div class="d-flex h-70 flex-align-center">
+                  <div><i class="c-grey m-8 fa-regular fa-heart"></i></div>  
+                  <div><i class="c-grey m-8 fa-regular fa-folder"></i></div>  
+                </div>
+            </div>
+            <!-- opzioni canzone -->
+            <div class="w-40 h-100 d-flex flex-column flex-align-center">
+                <div class="w-50  h-50 ">
+                    <ul class="d-flex flex-justify-center">
+                        <li class="c-white m-8"><i class="fa-solid fa-shuffle"></i></li>
+                        <li class="c-white m-8"><i class="fa-solid fa-backward-step"></i></li>
+                        <li class="c-white m-8"><i class="fa-regular fa-circle-play"></i></li>
+                        <li class="c-white m-8"><i class="fa-solid fa-forward-step"></i></li>
+                        <li class="c-white m-8"><i class="fa-solid fa-rotate-right"></i></li>
+                    </ul>
+                </div>
                 
+                <!-- track audio -->
+                <div class="w-100 h-50  d-flex flex-justify-between flex-align-center">
+                    <div>0.25</div>
+                    <div class="track-audio bg-grey">
+                        <div class="track-audio bg-white w-20"></div>
+                    </div>
+                    <div>4.45</div>
+                </div>
+                <!-- track audio -->
+
             </div>
-            <div class="w-40 h-100 bg-lilla d-flex flex-column flex-align-center">
-                <div class="w-50  h-50 bg-red"></div>
-                <div class="w-100 h-50 bg-white"></div>
+            <!-- audio e video -->
+            <div class="w-20 h-100  d-flex flex-align-center">
+                <div class="mr-16 c-white fe-0-7"><i class="fa-solid fa-list"></i></div>
+                <div class="mr-16 c-white fe-0-7"><i class="fa-solid fa-tv"></i></div>
+                <div class="mr-16 c-white fe-0-7"><i class="fa-solid fa-volume-high"></i></div>
+               <!-- track audio --> 
+                <div class="track-audio bg-grey mr-16 w-80">
+                    <div class="track-audio bg-white w-10"></div>
+                </div>
+                <!-- track audio --> 
             </div>
-            <div class="w-20 h-100 bg-lilla"></div>
 
         </footer>
     </div>
