@@ -18,9 +18,9 @@
         <section class="bg-black d-flex vh-90 w-100">
             
             <!-- nav bar -->
-            <nav class=" bg-black h-100 w-20 d-flex flex-column flex-justify-between pt-32  c-grey">
+            <nav class=" bg-black h-100 w-20 d-flex flex-column flex-justify-between c-grey">
                     
-                    <div class="nav-main pt-8">
+                    <div class="nav-main ">
                         <!-- logo -->
                         <div class="h-10 d-flex flex-align-center flex-justify-start">
                             <div class="w-20 h-100 mr-8"><img src="./img/logo-small.svg" alt="logo" class="h-100 w-100"></div>
@@ -63,7 +63,7 @@
                                 </div>
                                 <div>Crea Playlist</div>
                             </li>
-
+                            
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
@@ -75,18 +75,19 @@
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
-
+                            
                         </ul>
                         <!-- lista playlist -->
                     </div>
                        
-                    <div class="nav-footer ">
+                    <div class="nav-footer">
                         <div d-flex c-grey>
                             <div><i class="fa-regular fa-circle-down"></i></div>
                             <div>installa app</div>
                         </div>
                     
                         <hr class="c-grey mt-16 mb-16">
+
                         <div class="c-white fe-1.5 d-flex flex-align-center">                           
                             <div class="bg-grey m-8"><i class="fa-solid fa-user fe-1-5"></i></div>
                             <div>Kristian Filiposki</div>
@@ -108,12 +109,12 @@
                         <div class="pb-32 d-flex flex-justify-center">
                             <!-- flex container -->
                             <div class="d-flex container-generi">
-                                <div class="c-grey fe-0-7 ml-8 mt-8 option-bar">IN EVIDENZA</div>
-                                <div class="c-grey fe-0-7 ml-8 mt-8 option-bar">POPCAST</div>
-                                <div class="c-grey fe-0-7 ml-8 mt-8 option-bar">CLASSIFICHE</div>
-                                <div class="c-grey fe-0-7 ml-8 mt-8 option-bar">GENERI E MOOD</div>
-                                <div class="c-grey fe-0-7 ml-8 mt-8 option-bar">NUOVE USCITE</div>
-                                <div class="c-grey fe-0-7 ml-8 mt-8 option-bar">SCOPRI</div>
+                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">IN EVIDENZA</div>
+                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">POPCAST</div>
+                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">CLASSIFICHE</div>
+                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">GENERI E MOOD</div>
+                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">NUOVE USCITE</div>
+                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">SCOPRI</div>
                             </div>
                             <!-- flex container -->
                         </div>
@@ -125,18 +126,22 @@
                             <!-- riga 1 -->
                             <h2 class="bg-black c-white fe-1-7 p-16"> Recently played</h2>
                             <div class=" pt-16 pl-16 pr-16">
-                                <div class=" d-flex">
+                                <div class="flex-albums d-flex ">
                                     
                                     <!-- album 1 -->
                                     <div class="w-20  pr-8 cd  d-flex flex-column flex-align-center">
-                                        <div><img src="./img/metal_lifting.jpg" alt="foto" class="w-100 h-100 cd"></div>
+                                        <div class="relative">
+                                            <img src="./img/metal_lifting.jpg" alt="foto" class="w-100 h-100 cd">
+                                            <i class="fa-regular fa-circle-play absolute play"></i>
+                                        </div>
                                         <h3 class="c-white">Heavy Metal</h3>
                                         <div class="fe-0-8 c-grey mt-8">Heavy Metal</div>
                                     </div>
 
                                     <!-- album 2 -->
                                     <div class="w-20 pr-8  cd d-flex flex-column flex-align-center">
-                                        <div><img src="./img/stranger.jpeg" alt="foto" class="w-100 h-100 cd"></div>
+                                        <div>
+                                            <img src="./img/stranger.jpeg" alt="foto" class="w-100 h-100 cd" ></div>
                                         <h3 class="c-white">Stranger things Vol.1 (a Netflix original Series Soundtrak)</h3>
                                         <div class="fe-0-8 c-grey mt-8">Kyle Dixon e Michel Steilin</div>
                                     </div>
@@ -241,11 +246,11 @@
             <div class="w-40 h-100 d-flex flex-column flex-align-center">
                 <div class="w-50  h-50 ">
                     <ul class="d-flex flex-justify-center">
-                        <li class="c-white m-8"><i class="fa-solid fa-shuffle"></i></li>
-                        <li class="c-white m-8"><i class="fa-solid fa-backward-step"></i></li>
-                        <li class="c-white m-8"><i class="fa-regular fa-circle-play"></i></li>
-                        <li class="c-white m-8"><i class="fa-solid fa-forward-step"></i></li>
-                        <li class="c-white m-8"><i class="fa-solid fa-rotate-right"></i></li>
+                        <li class="c-white m-8 f-24"><i class="fa-solid fa-shuffle"></i></li>
+                        <li class="c-white m-8 f-24"><i class="fa-solid fa-backward-step"></i></li>
+                        <li class="c-white m-8 f-24"><i class="fa-regular fa-circle-play"></i></li>
+                        <li class="c-white m-8 f-24"><i class="fa-solid fa-forward-step"></i></li>
+                        <li class="c-white m-8 f-24"><i class="fa-solid fa-rotate-right"></i></li>
                     </ul>
                 </div>
                 
