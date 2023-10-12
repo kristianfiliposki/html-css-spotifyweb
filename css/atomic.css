@@ -19,6 +19,9 @@ li{list-style: none;}
     width:70%;
     border-radius: 25px;
 }
+.playlist{
+    padding-top: 10px;;
+    overflow-y: auto;}
 
 footer{
     background-color: var(--primary-color);
