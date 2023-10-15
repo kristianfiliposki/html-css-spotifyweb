@@ -18,50 +18,51 @@
         <section class="bg-black d-flex vh-90 w-100">
             
             <!-- nav bar -->
-            <nav class=" bg-black h-100 w-20 d-flex flex-column flex-justify-between c-grey">
+            <nav class=" bg-black h-100  c-grey">
                     
-                    <div class="nav-main ">
+                <!-- nav main -->
+                <div class="nav-main  d-flex flex-align-center flex-column">
                         <!-- logo -->
-                        <div class="h-10 d-flex flex-align-center flex-justify-start">
-                            <div class="w-20 h-100 mr-8"><img src="./img/logo-small.svg" alt="logo" class="h-100 w-100"></div>
-                            <h1 class="c-white fe-2-5">Spotify</h1>
+                        <div class="h-10 d-flex flex-align-center">
+                            <div class="w-20 h-80 d-flex flex-justify-center pt-8" id="img-logo"><img src="./img/logo-small.svg" alt="logo" class="h-100 w-100"></div>
+                            <div><h1 class="c-white logo-option-nav ">Spotify</h1></div>
                         </div>
                     
                         <!-- option nav -->
-                        <div>
-                            <div class="  ">
-                                <div class="mt-16 mr-16 pl-16 ml-0 d-flex flex-align-center h-30 option-nav ">
-                                    <i class="fa-solid fa-house  mr-8 fe-1-5"></i>
-                                    <div class="f-16">Home</div>
-                                </div>
-                            </div>
-        
-                            <div class="  ">
-                                <div class="mt-16 mr-16 pl-16 ml-0 d-flex flex-align-center h-20  option-nav ">
-                                    <i class="fa-solid fa-magnifying-glass mr-8 fe-1-5 "></i>
-                                    <div class="f-16">Cerca</div>
+                        <div class="d-flex flex-column flex-align-center pt-8">
+                            <div>
+                                <div class=" d-flex flex-align-center h-100 w-40 pt-8 nav-tools">
+                                    <i class="fa-solid fa-house  mr-8 img-logo-nav "></i>
+                                    <div class="f-16 text-option-nav">Home</div>
                                 </div>
                             </div>
         
                             <div>
-                                <div class=" d-flex flex-align-center h-20 mt-16 mr-16 pl-16 option-nav">
-                                    <i class="fa-solid fa-lines-leaning fe-1-5"></i>
-                                    <div class="f-16">La tua libreria</div>
+                                <div class=" d-flex flex-align-center h-100 w-40  pt-8 nav-tools">
+                                    <i class="fa-solid fa-magnifying-glass mr-8 img-logo-nav"></i>
+                                    <div class="f-16  text-option-nav">Cerca</div>
+                                </div>
+                            </div>
+        
+                            <div>
+                                <div class=" d-flex flex-align-center h-100 w-40 pt-8 nav-tools">
+                                    <i class="fa-solid fa-lines-leaning mr-8 img-logo-nav"></i>
+                                    <div class="f-16 text-option-nav">La tua <br> Libreria</div>
                                 </div>
                             </div>    
                         </div>
                         <!-- fine option nav -->
         
                         <!-- playlist -->
-                        <div class="c-white fe-1-5 ml-16 mt-16 mr-16"><h2>Playlist</h2></div>
+                        <div class="c-white mt-32 mb-16 "><h2 class="text-playlist">Playlist</h2></div>
                         
                         <!-- lista playlist -->
-                        <ul class="playlist h-50">
-                            <li class="d-flex flex-align-center ">
-                                <div class="bg-grey p-4 m-16  ">
+                        <ul class="playlist h-50 text-option-nav">
+                            <li class="d-flex flex-align-center option-nav">
+                                <div class="bg-grey p-4 ml-16  ">
                                     <i class="fa-solid fa-plus c-black f-24 plus-nav"></i>
                                 </div>
-                                <div>Crea Playlist</div>
+                                <div class="">Crea Playlist</div>
                             </li>
                             
                             <li class="mt-16 mr-16 pl-16 option-nav">Nome Playlist</li>
@@ -78,21 +79,22 @@
                             
                         </ul>
                         <!-- lista playlist -->
-                    </div>
-                       
-                    <div class="nav-footer">
+                </div>
+                     
+                <!-- nav footer -->       
+                <div class="nav-footer d-flex flex-align-center flex-column">
                         <div d-flex c-grey>
-                            <div><i class="fa-regular fa-circle-down"></i></div>
-                            <div>installa app</div>
+                            <div><i class="fa-regular fa-circle-down img-logo-nav"></i></div>
+                            <div class="text-option-nav">installa app</div>
                         </div>
                     
-                        <hr class="c-grey mt-16 mb-16">
+                        <hr class="c-grey mt-16 mb-16 w-100">
 
                         <div class="c-white fe-1.5 d-flex flex-align-center">                           
-                            <div class="bg-grey m-8"><i class="fa-solid fa-user fe-1-5"></i></div>
-                            <div>Kristian Filiposki</div>
+                            <div class="bg-grey m-8"><i class="fa-solid fa-user fe-1-5 img-logo-nav"></i></div>
+                            <div class="text-option-nav">Kristian Filiposki</div>
                         </div>
-                    </div>
+                </div>
             
             </nav>
             <!-- main -->
@@ -109,12 +111,12 @@
                         <div class="pb-32 d-flex flex-justify-center">
                             <!-- flex container -->
                             <div class="d-flex container-generi">
-                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">IN EVIDENZA</div>
-                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">POPCAST</div>
-                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">CLASSIFICHE</div>
-                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">GENERI E MOOD</div>
-                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">NUOVE USCITE</div>
-                                <div class="c-grey fe-1 ml-8 mt-8 option-bar">SCOPRI</div>
+                                <div class="c-grey  ml-8 mt-8 option-bar">IN EVIDENZA</div>
+                                <div class="c-grey  ml-8 mt-8 option-bar">POPCAST</div>
+                                <div class="c-grey  ml-8 mt-8 option-bar">CLASSIFICHE</div>
+                                <div class="c-grey  ml-8 mt-8 option-bar">GENERI E MOOD</div>
+                                <div class="c-grey  ml-8 mt-8 option-bar">NUOVE USCITE</div>
+                                <div class="c-grey  ml-8 mt-8 option-bar">SCOPRI</div>
                             </div>
                             <!-- flex container -->
                         </div>
@@ -129,49 +131,65 @@
                                 <div class="flex-albums d-flex ">
                                     
                                     <!-- album 1 -->
-                                    <div class="w-20  pr-8 cd  d-flex flex-column flex-align-center">
+                                    <div class="   pr-8 cd  d-flex flex-column flex-align-center">
                                         <div class="relative">
                                             <img src="./img/metal_lifting.jpg" alt="foto" class="w-100 h-100 cd">
                                             <i class="fa-regular fa-circle-play absolute play"></i>
                                         </div>
                                         <h3 class="c-white">Heavy Metal</h3>
-                                        <div class="fe-0-8 c-grey mt-8">Heavy Metal</div>
+                                        <div class="didascalia-albums c-grey mt-8">Heavy Metal</div>
                                     </div>
 
                                     <!-- album 2 -->
-                                    <div class="w-20 pr-8  cd d-flex flex-column flex-align-center">
-                                        <div>
-                                            <img src="./img/stranger.jpeg" alt="foto" class="w-100 h-100 cd" ></div>
+                                    <div class=" pr-8  cd d-flex flex-column flex-align-center">
+                                        <div class="relative">
+                                            <img src="./img/stranger.jpeg" alt="foto" class="w-100 h-100 cd" >
+                                            <i class="fa-regular fa-circle-play absolute play"></i>
+
+                                        </div>
                                         <h3 class="c-white">Stranger things Vol.1 (a Netflix original Series Soundtrak)</h3>
-                                        <div class="fe-0-8 c-grey mt-8">Kyle Dixon e Michel Steilin</div>
+                                        <div class="didascalia-albums c-grey mt-8">Kyle Dixon e Michel Steilin</div>
                                     </div>
 
                                     <!-- album 3 -->
-                                    <div class="w-20 pr-8 cd  d-flex flex-column flex-align-center">
-                                        <div><img src="./img/aquietplace.jpeg" alt="foto" class="w-100 h-100 cd"></div>
+                                    <div class=" pr-8 cd  d-flex flex-column flex-align-center">
+                                        <div class="relative">
+                                            <img src="./img/aquietplace.jpeg" alt="foto" class="w-100 h-100 cd">
+                                            <i class="fa-regular fa-circle-play absolute play"></i>
+                                        </div>
                                         <h3 class="c-white">A Quite Place</h3>
-                                        <div class="fe-0-8 c-grey mt-8">Subtitle</div>
+                                        <div class="didascalia-albums c-grey mt-8">Subtitle</div>
                                     </div>
 
                                     <!-- album 4 -->
-                                    <div class="w-20 h-100 pr-8 cd d-flex flex-column flex-align-center">
-                                        <div><img src="./img/split.jpeg" alt="foto" class="w-100 h-100 cd"></div>
+                                    <div class=" h-100 pr-8 cd d-flex flex-column flex-align-center">
+                                        <div class="relative">
+                                            <img src="./img/split.jpeg" alt="foto" class="w-100 h-100 cd">
+                                            <i class="fa-regular fa-circle-play absolute play"></i>
+                                        </div>
                                         <h3 class="c-white">Split</h3>
-                                        <div class="fe-0-8 c-grey mt-8">Subtitle</div>
+                                        <div class="didascalia-albums c-grey mt-8">Subtitle</div>
                                     </div>
 
                                     <!-- album 5 -->
-                                    <div class="w-20 h-100 pr-8 cd d-flex flex-column flex-align-center">
-                                        <div><img src="./img/cure.jpeg" alt="foto" class="w-100 h-100 cd"></div>
+                                    <div class=" h-100 pr-8 cd d-flex flex-column flex-align-center">
+                                        <div class="relative">
+                                            <img src="./img/cure.jpeg" alt="foto" class="w-100 h-100 cd">
+                                            <i class="fa-regular fa-circle-play absolute play"></i>
+
+                                        </div>
                                         <h3 class="c-white">A Cure for wellness</h3>
-                                        <div class="fe-0-8 c-grey mt-8">Subtitle</div>
+                                        <div class="didascalia-albums c-grey mt-8">Subtitle</div>
                                     </div>
 
                                     <!-- album 6 -->
-                                    <div class="w-20 h-100 pr-8 cd d-flex flex-column flex-align-center">
-                                        <div><img src="./img/sinister.jpeg" alt="foto" class="w-100 h-100 cd"></div>
+                                    <div class=" h-100 pr-8 cd d-flex flex-column flex-align-center">
+                                        <div class="relative">
+                                            <img src="./img/sinister.jpeg" alt="foto" class="w-100 h-100 cd">
+                                            <i class="fa-regular fa-circle-play absolute play"></i>
+                                        </div>
                                         <h3 class="c-white">Sinester</h3>
-                                        <div class="fe-0-8 c-grey mt-8">Subtitle</div>
+                                        <div class="didascalia-albums c-grey mt-8">Subtitle</div>
                                     </div>
 
                                 </div>
@@ -184,12 +202,20 @@
                             <div class="pt-16 pl-16 pr-16 d-flex">
                                 <!-- album 1 -->
                                 <div class="pr-8 d-flex flex-column flex-align-center cd">
-                                    <div><img src="./img/radar.jpeg" alt="foto" class="w-100 h-100"></div>
+                                    <div class="relative">
+                                        <img src="./img/radar.jpeg" alt="foto" class="w-100 h-100">
+                                        <i class="fa-regular fa-circle-play absolute play"></i>
+
+                                    </div>
                                     <h3 class="pb-16 pt-8 c-white">Relase Radar</h3>
                                 </div>
                                 <!-- album 2 -->
                                 <div class="pr-8 d-flex flex-column flex-align-center cd">
-                                    <div><img src="./img/mixdaily.jpeg" alt="foto" class="w-100 h-100"></div>
+                                    <div class="relative">
+                                        <img src="./img/mixdaily.jpeg" alt="foto" class="w-100 h-100">
+                                        <i class="fa-regular fa-circle-play absolute play"></i>
+
+                                    </div>
                                     <h3 class="pb-16 pt-8 c-white">Daily Mix 1</h3>
                                 </div>
                                 
@@ -202,12 +228,18 @@
                             <div class="pt-16 pl-16 pr-16 d-flex">
                                 <!-- album 1 -->
                                 <div class="pr-8 d-flex flex-column flex-align-center cd">
-                                    <div><img src="./img/youg.jpeg" alt="foto" class="w-100 h-100"></div>
+                                    <div class="relative">
+                                        <img src="./img/youg.jpeg" alt="foto" class="w-100 h-100">
+                                        <i class="fa-regular fa-circle-play absolute play"></i>
+                                    </div>
                                     <h3 class="pb-16 pt-8 c-white">Relase Radar</h3>
                                 </div>
                                 <!-- album 2 -->
                                 <div class="pr-8 d-flex flex-column flex-align-center cd">
-                                    <div><img src="./img/einaudi.jpeg" alt="foto" class="w-100 h-100"></div>
+                                    <div class="relative">
+                                        <img src="./img/einaudi.jpeg" alt="foto" class="w-100 h-100">
+                                        <i class="fa-regular fa-circle-play absolute play"></i>
+                                    </div>
                                     <h3 class="pb-16 pt-8 c-white">Daily Mix 1</h3>
                                 </div>
                                 
@@ -248,7 +280,7 @@
                     <ul class="d-flex flex-justify-center">
                         <li class="c-white m-8 f-24"><i class="fa-solid fa-shuffle"></i></li>
                         <li class="c-white m-8 f-24"><i class="fa-solid fa-backward-step"></i></li>
-                        <li class="c-white m-8 f-24"><i class="fa-regular fa-circle-play"></i></li>
+                        <li class="c-white m-8 f-24"><i class="fa-regular fa-circle-play play-music"></i></li>
                         <li class="c-white m-8 f-24"><i class="fa-solid fa-forward-step"></i></li>
                         <li class="c-white m-8 f-24"><i class="fa-solid fa-rotate-right"></i></li>
                     </ul>
